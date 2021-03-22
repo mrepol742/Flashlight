@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="531201927" android:versionName="4.01a" android:installLocation="auto"
+package="com.android.DROID_MJ.flashlight">
+	<uses-sdk android:minSdkVersion="12" android:targetSdkVersion="27" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.FLASHLIGHT" android:required="true"/>
+	<application android:configChanges="keyboard|keyboardHidden|layoutDirection|orientation|screenLayout|screenSize|smallestScreenSize"
+        android:allowBackup="true"  android:icon="@drawable/d" android:label="@string/a" android:supportsRtl="true" android:theme="@style/a">
+		<activity android:configChanges="keyboard|keyboardHidden|layoutDirection|orientation|screenLayout|screenSize|smallestScreenSize" android:name=".a">
+			<intent-filter>
+				<action  android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
